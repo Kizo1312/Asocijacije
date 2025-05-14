@@ -4,7 +4,7 @@ function onClick(s) {
 }
 function ZaCentar(event) {
   if (event.key == "Enter") {
-    let tocan = document.getElementById("KURAC");
+    let tocan = document.getElementById("tocni");
     tocan.innerHTML = "nije";
   }
 }
