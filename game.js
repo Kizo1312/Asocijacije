@@ -1,0 +1,50 @@
+export const igre = [
+  {
+    grupaA: ["Plaža", "Valovi", "Suncobran", "Ljeto", "More"],
+    grupaB: ["Učionica", "Knjiga", "Učitelj", "Test", "Škola"],
+    grupaC: ["Recept", "Kuhar", "Tava", "Hrana", "Kuhinja"],
+    grupaD: ["Smeće", "Reciklaža", "Priroda", "Plastika", "Ekologija"],
+    rjesenje: "Zivot",
+  },
+  {
+    grupaA: ["Pas", "Mačka", "Hrana", "Kavez", "Ljubimac"],
+    grupaB: ["Film", "Kamera", "Redatelj", "Scena", "Kino"],
+    grupaC: ["Bolnica", "Liječnik", "Pacijent", "Ambulanta", "Zdravlje"],
+    grupaD: ["Cvijet", "Voda", "Sunce", "Tlo", "Priroda"],
+    rjesenje: "Briga",
+  },
+  {
+    grupaA: ["Božić", "Snijeg", "Poklon", "Zima", "Blagdani"],
+    grupaB: ["Torta", "Svijeće", "Pozivnice", "Baloni", "Rođendan"],
+    grupaC: ["Obitelj", "Stol", "Hrana", "Druženje", "Ručak"],
+    grupaD: ["Vjenčanica", "Prsten", "Ples", "Mladenci", "Vjenčanje"],
+    rjesenje: "Proslava",
+  },
+  {
+    grupaA: ["Nogomet", "Tenis", "Košarka", "Atletika", "Sport"],
+    grupaB: ["Mrkva", "Salata", "Rajčica", "Krastavac", "Povrće"],
+    grupaC: ["Časopis", "Naslovnica", "Članak", "Fotografija", "Mediji"],
+    grupaD: [
+      "Laptop",
+      "Internet",
+      "Programiranje",
+      "Aplikacija",
+      "Tehnologija",
+    ],
+    rjesenje: "Aktivnosti",
+  },
+  {
+    grupaA: ["Ormar", "Stolica", "Krevet", "Lampa", "Namještaj"],
+    grupaB: ["Papir", "Olovka", "Bilježnica", "Markeri", "Ured"],
+    grupaC: ["Ljubav", "Obitelj", "Dijete", "Sigurnost", "Dom"],
+    grupaD: ["Hodnik", "Stubište", "Vrata", "Kat", "Zgrada"],
+    rjesenje: "Prostor",
+  },
+  {
+    grupaA: ["Avion", "Let", "Prtljaga", "Zračna luka", "Putovanje"],
+    grupaB: ["Engleski", "Njemački", "Francuski", "Španjolski", "Jezici"],
+    grupaC: ["Karta", "Vodič", "Suvenir", "Fotografija", "Turizam"],
+    grupaD: ["More", "Planine", "Grad", "Selo", "Destinacija"],
+    rjesenje: "Stranac",
+  },
+];
