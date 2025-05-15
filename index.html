@@ -4,10 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Asocijacije(Srbija)</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <button onclick="onClick()">A1</button>
-    <div id="sunce"></div>
-    <script src="script.js"></script>
+    <div class="Parent">
+      <div class="big">
+        <button class="buttonA">A1</button>
+        <br />
+        <button class="buttonA">A2</button>
+        <br />
+        <button class="buttonA">A3</button>
+        <br />
+        <button class="buttonA">A4</button>
+        <br />
+        <div class="maloRijesenje">
+          <input
+            type="text"
+            class="maloRijesenje"
+            onkeypress="zaMaloRijesenje(event, 0)"
+          />
+        </div>
+      </div>
+      <div class="big">
+        <button onclick="onClick(4)" class="buttonB">B1</button>
+        <br />
+        <button onclick="onClick(5)" class="buttonB">B2</button>
+        <br />
+        <button onclick="onClick(6)" class="buttonB">B3</button>
+        <br />
+        <button onclick="onClick(7)" class="buttonB">B4</button>
+        <br />
+        <div class="maloRijesenje">
+          <input
+            type="text"
+            class="maloRijesenje"
+            onkeypress="zaMaloRijesenje(event, 1)"
+          />
+        </div>
+      </div>
+      <div class="Glavni rijesenje" id="tocni" id="Centar">
+        <input type="text" onkeypress="ZaCentar(event)" id="Centar" />
+      </div>
+      <div class="big">
+        <div class="maloRijesenje">
+          <input type="text" onkeypress="zaMaloRijesenje(event, 2)" />
+        </div>
+        <button onclick="onClick(8)" class="buttonC">C1</button>
+        <br />
+        <button onclick="onClick(9)" class="buttonC">C2</button>
+        <br />
+        <button onclick="onClick(10)" class="buttonC">C3</button>
+        <br />
+        <button onclick="onClick(11)" class="buttonC">C4</button>
+      </div>
+      <div class="big">
+        <div class="maloRijesenje">
+          <input type="text" onkeypress="zaMaloRijesenje(event, 3)" />
+        </div>
+        <button onclick="onClick(12)" class="buttonD">D1</button>
+        <br />
+        <button onclick="onClick(13)" class="buttonD">D2</button>
+        <br />
+        <button onclick="onClick(14)" class="buttonD">D3</button>
+        <br />
+        <button onclick="onClick(15)" class="buttonD">D4</button>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
